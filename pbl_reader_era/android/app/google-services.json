@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "531785642546",
+    "project_id": "pbl-reader",
+    "storage_bucket": "pbl-reader.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531785642546:android:4e08501df6e497793f822b",
+        "android_client_info": {
+          "package_name": "com.example.pbl_reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531785642546-op3kq2b3jbknnrotqntp6is08236jnui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pbl_reader",
+            "certificate_hash": "75122f095bcacb2308349648e5ffaf3bc8f78349"
+          }
+        },
+        {
+          "client_id": "531785642546-0fohep35db1qag0avasfhp4sc5aqo5bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDohsv2sD7k7ycxhSF2xQq3F40FHak0IQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531785642546-0fohep35db1qag0avasfhp4sc5aqo5bt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "531785642546-dm7qa1urnhd16gq1358ltitsfr1soepm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pblReader"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531785642546:android:751b76cf67d2b33f3f822b",
+        "android_client_info": {
+          "package_name": "com.example.pbl_reader_era"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531785642546-4no1q6akk33vmggbhomtfluni3a70l5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pbl_reader_era",
+            "certificate_hash": "75122f095bcacb2308349648e5ffaf3bc8f78349"
+          }
+        },
+        {
+          "client_id": "531785642546-0fohep35db1qag0avasfhp4sc5aqo5bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDohsv2sD7k7ycxhSF2xQq3F40FHak0IQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531785642546-0fohep35db1qag0avasfhp4sc5aqo5bt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "531785642546-dm7qa1urnhd16gq1358ltitsfr1soepm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pblReader"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
