@@ -1,4 +1,4 @@
-name: Flutter
+name: Flutter CI
 
 on:
   push:
@@ -11,18 +11,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.22.1'
 
-      - name: Install dependencies
+      - name: Show Flutter version
+        run: flutter --version
+
+      - name: Debug pubspec.yaml
+        run: cat pubspec.yaml
+        working-directory: pbl_reader_era
+
+      - name: Clean build cache (just in case)
+        run: flutter clean
+        working-directory: pbl_reader_era
+
+      - name: Get dependencies (verbose)
         run: flutter pub get --verbose
         working-directory: pbl_reader_era
 
-      - name: Analyze project source
+      - name: Analyze source code
         run: flutter analyze
         working-directory: pbl_reader_era
 
