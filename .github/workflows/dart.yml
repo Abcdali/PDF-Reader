@@ -19,7 +19,7 @@ jobs:
           flutter-version: '3.22.1'
 
       - name: Install dependencies
-        run: flutter pub get
+        run: flutter pub get --verbose
         working-directory: pbl_reader_era
 
       - name: Analyze project source
